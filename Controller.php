@@ -21,7 +21,6 @@ class Controller extends ElectronicItem
         // Controller can't have any extras
         return 0;
     }
-    
 }
 
 ?>
