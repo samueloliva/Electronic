@@ -27,3 +27,6 @@ Thereby I divided ElectronicItem types into subclasses:
         * Microwave
         * Controller
 
+## Usage:
+To run the solution put the code into a server that runs php and open the Scenario.php 
+through some browser with the configured localhost 
