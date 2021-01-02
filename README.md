@@ -14,9 +14,7 @@ Class: ElectronicItem
 However, some electronic items can contain extra items and other don't.
 
 ## Proposed solution
-There're two ways that could handle this kind of problem: inheritance or composition
-* Inheritance: derives one class from another, where classes and objects are tightly coupled 
+My proposed solution was to use classes and objects Composition.
 * Composition: defines a class as the sum of its parts, where classes and objects are loosely coupled
-
-I chose the Composition concept, due to its flexibility.
+Thereby 
 
