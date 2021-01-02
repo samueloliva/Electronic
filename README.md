@@ -15,6 +15,15 @@ However, some electronic items can contain extra items and other don't.
 
 ## Proposed solution
 My proposed solution was to use classes and objects Composition.
-* Composition: defines a class as the sum of its parts, where classes and objects are loosely coupled
-Thereby 
+* Composition: defines a class as the sum of its parts, where classes and objects are loosely coupled.
+
+Thereby I divided ElectronicItem types into subclasses:
+* Class: ElectronicItem
+* Subclasses:
+    * Composed: 
+        * Console
+        * Television
+    * Primitive:
+        * Microwave
+        * Controller
 
