@@ -19,7 +19,7 @@ My proposed solution was to use Composite, which is a design pattern that allows
 However, for the sake of simplicity I didn't implement some methods regarding the controlling of the tree structure since the problem doesn't require more than two level for the tree, because a child node (Leaf)
 is not going to be necessarily a parent node (Composite).
 
-In the other hand, the two level tree structure allows to sum the parent node and its child nodes up. 
+In the other hand, the two level tree structure allows to sum up the parent node and its child nodes. 
 
 Thereby I divided ElectronicItem types into subclasses:
 * Class: ElectronicItem (Component)
