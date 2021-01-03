@@ -1,9 +1,9 @@
 <?php
 
-include_once("ElectronicItems.php");
-include_once("Console.php");
-include_once("Controller.php");
-include_once("Television.php");
+require_once("ElectronicItems.php");
+require_once("Console.php");
+require_once("Controller.php");
+require_once("Television.php");
 
 ## Person buys ##
 
@@ -27,11 +27,11 @@ $television2->add(new Controller(30, false));
 
 $eletronicItems = new ElectronicItems([$console, $television1, $television2]);
 
-echo "<br> # Question 1: Total Pricing # <br>";
+echo "\n # Question 1: Total Pricing # \n";
 $sorted = $eletronicItems->getSortedItems("ASC");
 echo $eletronicItems->showItems($sorted);
 echo "Total price: " . $eletronicItems->getTotalPrice();
-echo "<br><br># Question 2 - Purchase Info #<br>";
+echo "\n\n# Question 2 - Purchase Info #\n";
 echo $console->getPurchaseInfo();
 
 ?>

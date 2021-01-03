@@ -73,10 +73,10 @@ class Console extends ElectronicItem {
      */
     public function getPurchaseInfo() {
         $output = "";
-        $productPrice = "Item: " . $this->getType() . " Price: " . $this->price . "<br>"; 
+        $productPrice = "Item: " . $this->getType() . " Price: " . $this->price . "\n"; 
         $output .= $productPrice;
         foreach($this->extraItems as $extraItem) {
-            $extraPrice = "- Extra item: " . $extraItem->getType() . " Price: " . $extraItem->getPrice() . "<br>";
+            $extraPrice = "- Extra item: " . $extraItem->getType() . " Price: " . $extraItem->getPrice() . "\n";
             $output .= $extraPrice;
         }
         return $output;

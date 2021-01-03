@@ -64,7 +64,7 @@ class ElectronicItems
     public function showItems($items) {
         $description = "";
         foreach ($items as $item) {
-            $info = "Item: ". $item->getType() . " Price: " . $item->getPrice() . "<br>";
+            $info = "Item: ". $item->getType() . " Price: " . $item->getPrice() . "\n";
             $description .= $info;
         }
         return $description;
