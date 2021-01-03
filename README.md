@@ -11,7 +11,7 @@ Class: ElectronicItem
     * Microwave
     * Controller
 
-However, some electronic items can contain extra items and other don't.
+However, some electronic items can contain extra items and others don't.
 
 ## Proposed solution
 My proposed solution was to use Composite, which is a design pattern that allows to compose objects into a tree structure and also represent part-whole hierarchies.
