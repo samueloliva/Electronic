@@ -6,7 +6,6 @@ require_once("Controller.php");
 require_once("Television.php");
 
 ## Person buys ##
-
 # 1 console 
 $console = new Console(300);
 # with 2 remote controllers (wired is false)

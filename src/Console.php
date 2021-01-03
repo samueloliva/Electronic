@@ -13,7 +13,6 @@ class Console extends ElectronicItem {
     private $extraItems = array();
     
     /**
-     * Initialize EletronicItem's properties  
      * @param float $price EletronicItem's price
      */
     public function __construct($price) {
@@ -72,14 +71,14 @@ class Console extends ElectronicItem {
      * @return string 
      */
     public function getPurchaseInfo() {
-        $output = "";
+        $info = "";
         $productPrice = "Item: " . $this->getType() . " Price: " . $this->price . "\n"; 
-        $output .= $productPrice;
+        $info .= $productPrice;
         foreach($this->extraItems as $extraItem) {
             $extraPrice = "- Extra item: " . $extraItem->getType() . " Price: " . $extraItem->getPrice() . "\n";
-            $output .= $extraPrice;
+            $info .= $extraPrice;
         }
-        return $output;
+        return $info;
     }
 
     /**

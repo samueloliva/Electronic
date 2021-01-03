@@ -80,8 +80,6 @@ abstract class ElectronicItem
      * @todo create setParent(ElectronicItem $item) method
      */
 
-    
 }
-
 
 ?>
