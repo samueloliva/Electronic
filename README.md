@@ -29,8 +29,11 @@ Thereby I divided ElectronicItem types into subclasses:
 
 ## Usage:
 The code was created to be executed in a php-cli, but it can be easily adapted to run in an apache server.
+
 To run the code you can build and run the Dockerfile:
+
 ` docker build -t electronic-app . `
+
 ` docker run -it --rm --name electronic-running-app electronic-app `
 
 
