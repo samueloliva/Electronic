@@ -3,7 +3,7 @@
 require_once("ElectronicItem.php");
 
 /**
- * Composed class - can have extra items
+ * Composite class - can have extra items
  */
 class Television extends ElectronicItem {
     /**

@@ -3,7 +3,7 @@
 include_once("ElectronicItem.php");
 
 /**
- * Primitive type - no extra item
+ * Primitive type (Leaf) - no extra item
  */
 class Controller extends ElectronicItem 
 {

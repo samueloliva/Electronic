@@ -3,7 +3,7 @@
 include_once("ElectronicItem.php");
 
 /**
- * Primitive class - no extra item
+ * Primitive class (Leaf) - no extra item
  */
 class Microwave extends ElectronicItem {
 
